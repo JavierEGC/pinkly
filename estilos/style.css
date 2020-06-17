@@ -1,0 +1,246 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.content-center{
+    margin:  auto;
+    text-align: center;
+}
+
+.topmargin-lg{ margin-top: 180px; }
+.topmargin-md{ margin-top: 60px; }
+.topmargin-sm{ margin-top: 30px; }
+.topmargin-xs{ margin-top: 8px; }
+
+/*NAVBAR*/
+.navbar{
+    min-height: 60px;
+    text-align: center;
+    background-color: teal;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+}
+.navbar img{
+    width: 150px;
+}
+
+.navbar .collapse a{
+    font-size: 20px;
+    cursor: context-menu;
+    color:white;
+}
+.navbar .collapse a:hover{
+    color: #B0B0B0;
+}
+
+.nav-link{ color: #1a1a1a; }
+.nav-link:hover{ color: #1a1a1a; }
+
+.navbar-toggler i{ font-size: 25px; float: left;}
+.navbar-toggler:focus{ outline: none; }
+
+
+/*PRINCIPAL*/
+#principal{
+    min-height: 750px;
+}
+.saludo{
+    width: 100%;
+    height: 350px;
+    background-color: #D6D6D6;
+}
+.saludo img{
+    width: 400px;
+    margin-top: 30px;
+}
+.saludo p{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.videos{
+    width: 98%;
+    min-height: 500px;
+}
+
+#principal .contenidoniño{
+    height: auto;
+    background-color:#EEEEEE;
+}
+#principal .contenidoniño iframe{
+    width: 90%;
+    height: 460px;
+    padding: 10px;
+}
+#principal .contenidoniño h2{
+    margin-top: 20px;
+    font-size: 35px;
+}
+#principal .contenidoniño a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #343a40;
+}
+#principal .contenidoniño a:hover{
+    color: #111111;
+}
+
+#fabulas{
+    margin: auto;
+    width: 98%;
+    min-height: 500px;
+    margin: auto;
+}
+#fabulas h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: #305E2E;
+}
+#fabulas .fa{
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+#fabulas .fa h3{
+    font-family: 'Courgette', cursive;
+    margin-top: 20px;
+}
+#fabulas .fa p{
+    margin: auto;
+    width: 90%;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 22px;
+}
+#fabulas .fa h4{
+    margin: auto;
+    width: 80%;
+    margin-top: 10px;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+    color: #DA0000;
+    
+}
+#fabulas .fa img{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+#cuentos{
+    width: 100%;
+    min-height: 200px;
+    background-color: #C9C9C9;
+}
+#cuentos h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+}
+#cuentos p{
+    text-align: center;
+    font-size: 25px;
+    color: brown;
+}
+
+
+
+
+
+/*FOOTER*/
+#footer{
+    clear: both;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background:teal;
+}
+
+
+
+/*CELULARES*/
+@media (max-width: 575.98px) {
+    .navbar-toggler i{
+        font-size: 18px;
+        color: white;
+    }
+    .navbar img{
+        width: 80px;
+    }
+    .navbar .collapse a{
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .saludo{
+        margin-top: -10px;
+        height: 270px;
+    }
+    .saludo img{
+        width: 170px;
+    }
+    .saludo p{
+        margin: auto;
+        margin-top: 20px;
+        width: 80%;
+        font-size: 13px;
+    }
+
+    #principal .contenidoniño h2{
+        font-size: 17px;
+    }
+    #principal .contenidoniño a{
+        font-size: 13px;
+    }
+    #principal .contenidoniño iframe{
+        width: auto;
+        height: auto;
+    }
+    
+    #fabulas .fa{
+        width: 100%;
+        margin: auto;
+    }
+    #fabulas h2{
+        margin-top: -20px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #fabulas .fa h3{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #fabulas .fa p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #fabulas .fa h4{
+        font-size: 11px;
+    }
+    #fabulas .fa img{
+        width: 230px;
+    }
+
+    #cuentos{
+        min-height: 130px;
+    }
+    #cuentos h2{
+        font-size: 17px;
+    }
+    #cuentos p{
+        font-size: 14px;
+    }
+    
+    
+    #footer{
+        font-size: 14px;
+        margin-top: 0px;
+    }
+}
