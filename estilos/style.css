@@ -87,6 +87,8 @@ body{
     color: #111111;
 }
 
+
+/*FABULAS*/
 #fabulas{
     margin: auto;
     width: 98%;
@@ -123,30 +125,56 @@ body{
     font-family: 'Merienda', cursive;
     font-size: 15px;
     color: #DA0000;
-    
+    background-color: #F9F9F9;
+    padding: 10px;
+    border-radius: 15px; 
 }
 #fabulas .fa img{
     margin-top: 25px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 
-
+/*CUENTOS*/
 #cuentos{
-    width: 100%;
-    min-height: 200px;
-    background-color: #C9C9C9;
+    margin: auto;
+    width: 98%;
+    min-height: 500px;
+    margin: auto;
 }
 #cuentos h2{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     padding-top: 30px;
+    color: #FF4A4A;
 }
-#cuentos p{
+#cuentos h4{
     text-align: center;
-    font-size: 25px;
-    color: brown;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+    color: #C1221F;
+}
+#cuentos .fa{
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+#cuentos .fa h3{
+    font-family: 'Courgette', cursive;
+    margin-top: 20px;
+}
+#cuentos .fa p{
+    margin: auto;
+    width: 90%;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 22px;
+}
+#cuentos .fa img{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 
@@ -167,6 +195,9 @@ body{
 
 /*CELULARES*/
 @media (max-width: 575.98px) {
+    .navbar{
+        width: 100%;
+    }
     .navbar-toggler i{
         font-size: 18px;
         color: white;
@@ -180,6 +211,7 @@ body{
     }
 
     .saludo{
+        width: 100%;
         margin-top: -10px;
         height: 270px;
     }
@@ -200,8 +232,8 @@ body{
         font-size: 13px;
     }
     #principal .contenidoniño iframe{
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
     
     #fabulas .fa{
@@ -210,7 +242,7 @@ body{
     }
     #fabulas h2{
         margin-top: -20px;
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 10px;
     }
     #fabulas .fa h3{
@@ -228,16 +260,31 @@ body{
         width: 230px;
     }
 
-    #cuentos{
-        min-height: 130px;
+   
+    #cuentos .fa{
+        width: 100%;
+        margin: auto;
     }
     #cuentos h2{
-        font-size: 17px;
+        margin-top: -20px;
+        font-size: 25px;
     }
-    #cuentos p{
-        font-size: 14px;
+    #cuentos h4{
+        margin-top: -6px;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
-    
+    #cuentos .fa h3{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #cuentos .fa p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #cuentos .fa img{
+        width: 230px;
+    }
     
     #footer{
         font-size: 14px;
